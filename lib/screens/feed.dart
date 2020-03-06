@@ -90,10 +90,10 @@ class Feed extends StatelessWidget {
                   overflow: TextOverflow.visible,
                   text: TextSpan(children: [
                     TextSpan(
-                        text: "Curtido por ",
+                        text: "Curtidas ",
                         style: TextStyle(color: Colors.black)),
                     TextSpan(
-                        text: "${post.likes} pessoas",
+                        text: "${post.likes}",
                         style: TextStyle(
                             fontWeight: FontWeight.bold, color: Colors.black)),
                   ]),
